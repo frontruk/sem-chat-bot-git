@@ -1,0 +1,22 @@
+{
+  "name": "sem-chat-bot",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@frontr/sem-ui": "git+ssh://git@github.com/frontruk/sem-ui-git.git"
+  },
+  "main": "bundles/sem-chat-bot.umd.js",
+  "module": "fesm5/sem-chat-bot.js",
+  "es2015": "fesm2015/sem-chat-bot.js",
+  "esm5": "esm5/sem-chat-bot.js",
+  "esm2015": "esm2015/sem-chat-bot.js",
+  "fesm5": "fesm5/sem-chat-bot.js",
+  "fesm2015": "fesm2015/sem-chat-bot.js",
+  "typings": "sem-chat-bot.d.ts",
+  "metadata": "sem-chat-bot.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
